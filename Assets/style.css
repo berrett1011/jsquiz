@@ -1,0 +1,73 @@
+:root{
+  --secondary-color: #6211e6;
+  --primary-color: #000000;
+}
+body {
+  background-color: var(--primary-color);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  color: var(--secondary-color);
+  text-decoration-line: underline;
+  font-weight:bolder;
+}
+#timer{
+  color: var(--secondary-color);
+  text-decoration-line: underline;
+  font-weight: bolder;
+}
+#container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 60px 300px;
+  height: 300px;
+  box-shadow: 0 0 15px 10px rgba(134, 134, 134, 0.973);
+ border-radius: 5px;
+  background-color: var(--secondary-color); 
+}
+#question{
+  font-size: 1.8rem;
+  font-weight: bolder;
+}
+#answers{
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 20px;
+  margin: 10px;
+}
+.answer{
+  border-radius: 10px;
+  color: rgba(255, 255, 255, 0.849);
+  background-color: var(--primary-color);
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.answer:hover{
+  background-color: #a345f0;
+}
+#submit, #next{
+  border-radius: 10px;
+  color: rgba(255, 255, 255, 0.849);
+  background-color: var(--primary-color);
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+#submit:hover, #next:hover{
+  background-color: #1dcdfe;
+}
+h2 {
+  display: flex;
+  justify-content: space-around;
+  color: var(--secondary-color);
+  text-decoration-line: underline;
+  
+}
+
+.hide{
+  display: none;
+}
